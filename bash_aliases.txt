@@ -1,0 +1,60 @@
+#!/bin/bash
+
+##########################################
+# Author: Brian Truong
+# Description : configure /.bash_aliases
+# Date : May 20th, 2019
+##########################################
+
+# Common command
+alias q='exit'
+alias c='clear'
+alias h='history'
+alias cs='clear;ls'
+alias p='cat'
+alias pd='pwd'
+alias lsa='ls -a'
+alias lsl='ls -l'
+alias t='time'
+
+# Directories
+alias home='cd ~'
+alias root='cd /'
+#alias desktop= 'cd ~/Desktop'
+alias dbox='cd ~/Dropbox'
+alias gdrive='cd ~/Google\ Drive'
+
+# Common project directories
+#alias cppprojects
+#alias cprojects
+#alias pythonprojects
+#alias javaprojects
+alias ..='cd ..'
+
+# Git command
+alias g='git'
+alias gst='git status'
+alias gcommit='git commit -m'
+alias gclone='git clone'
+alias glog='git log'
+alias gadd='git add -u'
+alias gaddall='git add .'
+alias gpush='git push origin master'
+
+# Program aliases
+alias gcc='gcc-6'
+alias g++='g++-6'
+alias python='/usr/bin/python3.6'
+alias pip='pip3'
+
+# Shortcuts to vimrc and bashrc
+alias vimrc='vim ~/.vimrc'
+alias bashrc='vim ~/.bashrc'
+alias aliasrc='vim ~/.bash_aliases'
+alias srcvim='source ~/.vimrc'
+alias srcbash='source ~/.bashrc'
+
+# Execute program
+alias run='bash /home/phuong/Documents/scripts/script_sh/run_shell.sh'
+alias runrc='vim /home/phuong/Documents/scripts/script_sh/run_shell.sh'
+
